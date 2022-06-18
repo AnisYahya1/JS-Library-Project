@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Library-Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Libary</h1>
+        </div>
+        <div class="main-content">
+            <form action="#">
+                <div class="option">
+                    <label for="bookTitle">Book Title: </label>
+                    <input type="text" name="bookTitle" id="bookTitle">
+                </div>
+                <div class="option">
+                    <label for="author">Author: </label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="option">
+                    <label for="pages">Number of Pages: </label>
+                    <input type="number" name="pages" id="pages">
+                </div>
+                <div class="option">
+                    <label for="read">Read?: </label>
+                    <input type="checkbox" name="read" id="read">
+                </div>
+                <div class="option">
+                    <button class = 'submit-btn' onclick="submitBook()">+ Add Book</button>
+                </div>
+            </form>
+
+            <div class="books">
+
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>

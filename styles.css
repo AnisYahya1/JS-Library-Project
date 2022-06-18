@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+:root {
+    --shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fffbfb;
+    box-shadow: var(--shadow);
+}
+
+.main-content button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #fffbfb;
+    padding: 12px;
+    border-radius: 20%;
+    border: none;
+}
+
+.header button:hover {
+    filter: brightness(90%);
+}
+
+.main-content {
+    background-color: #f0eef1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    padding: .5rem;
+    text-align: center;
+}
+
+.books {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 10px;
+    gap: 1rem;
+    justify-items: center;
+    border-style: solid;
+    min-height: 400px;
+}
+.card {
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 30px;
+    width: 70%;
+
+    
+
+}
